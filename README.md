@@ -6,11 +6,16 @@ The original Bernie sits: https://bernie-sits.herokuapp.com/ by [Nick Sawhney](h
 
 I figured it was programmed in python using Django. It had that typical "I didn't put any extra thought into the web page template" feel that Django websites in python often have. I thought I could make it a bit prettier using R and Shiny.
 
+![Original Bernie Sits](/Original_archived.png)
+
 ## Features
 The original had a text input, action button, and output an image on the screen. My version has that, but also includes:
 - Enhanced formatting
 - User input checks, with useful messages
 
+![Check for blank input](/shiny_notifications.png)
+
 ## End Result
 While I won't publish it for the same reason that Nick took the original down (the streetview API and hosting that number of concurrent users isn't cheap), here is the end result:
 
+![Final Output Image](/shiny_white_house.png)
