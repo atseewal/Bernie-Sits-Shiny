@@ -11,6 +11,9 @@ The original had a text input, action button, and output an image on the screen.
 - Enhanced formatting
 - User input checks, with useful messages
 
+![Check for blank input](/shiny_notifications.png)
+
 ## End Result
 While I won't publish it for the same reason that Nick took the original down (the streetview API and hosting that number of concurrent users isn't cheap), here is the end result:
 
+![Final Output Image](/shiny_white_house.png)
