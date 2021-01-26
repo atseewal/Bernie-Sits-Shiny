@@ -81,7 +81,9 @@ sidebar <- dashboardSidebar(disable = TRUE)
 # Body --------------------------------------------------------------------
 
 body <- dashboardBody(
-    box(title = "Make Bernie Sanders sit in front of your house! Just enter the address to begin:", width = 12,
+    box(
+        title = "Make Bernie Sanders sit in front of your house! Just enter the address to begin:",
+        width = 12,
         textInput("address", "Address"),
         actionButton("sit", "Sit!"),
         footer = "Note: Addresses are not saved"
